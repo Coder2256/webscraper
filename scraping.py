@@ -10,5 +10,3 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), c
 
 driver.get("https://www.google.com")
 print(driver.page_source)
-driver.quit()
-print("Finished")
